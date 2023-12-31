@@ -1,0 +1,22 @@
+
+h1  {  text-align: center; 
+         font-size: 50;
+		 color: rgb(0, 0, 0);
+		 font-family:Arial
+		 }
+
+p  {  text-align: center; 
+         font-size: 40;
+		 color: rgb(0, 0, 0);
+		 font-family:Arial
+		 }
+
+ol  {  text-align: left; 
+         font-size: 25;
+		 color: rgb(0, 0, 0);
+		 font-family:Arial;
+		 margin-left:10 px}
+		 
+a:link 		{color: rgb(0,250,0)}
+a:visited	{color: rgb(0,250,0)}
+a:hover		{background-color: gray;color: black;}

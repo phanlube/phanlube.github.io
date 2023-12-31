@@ -1,0 +1,102 @@
+<!-- ... -->
+<!-- Syntaxe pour un commentaire en HTML.-->
+
+<!-- Note : J'utilise le langage HTML, menu :
+Langage/H/HTML, pour afficher les blocs avec des "+" et "-" -->
+
+<!-- Un grand merci à Manuele Kirsch-Pinheiro
+pour son site http://www.kirschpm.fr/cours/M1Gestion/pages/-->
+
+<!DOCTYPE html5>
+<!-- pour préciser le format du document, version 5 HTML -->
+
+
+<html>
+	<!-- première balise qui doit se fermer à la fin du document -->
+
+ <head>
+	<!-- balise head pour donner des informations sur la page-->
+	<meta charset="UTF-8s" />
+	<!-- présice le type de codage pour les caractères  -->
+	<!-- balise orpheline avec à la fin />  -->
+    <meta name="auteur" content="Lucile" />
+	<!-- informations sur la page, auteur et contenu  -->
+    <title> index </title>
+	<!-- nom de la page pour faire le lien avec d'autres pages  -->
+	<link rel="stylesheet" href="css/style.css" />
+	<!-- fait le lien avec le fichier CSS  -->
+ </head>
+
+<body>
+<!-- structure de la page -->
+<header>
+
+	<h1> Bienvenue sur mon site </h1>
+	<!-- je place un repère, que j'appelle "debut" pour naviguer plus rapidement dans la page -->
+	<!-- Sans repère cela donne <h1> Menu </h1> -->
+	<!-- h1 c'est pour écrire un titre -->
+</header>
+<section>
+   <h3>Contact</h3>
+    <ul>
+      <li> <p1> Envoyer un mail à <a href="mailto:phanlube@mail.com"> Lucile</a></p1></li>
+      <li> <p1>Lycée : Saint-Antoine</p1></li>
+	  <li><p1>Téléphone : 0102030405</p1></li>
+      </ul>
+</section>
+<article>
+	<nav>
+	<!-- nav pour définir un jeu de liens -->
+	<ul id="menu">
+	<!-- id : pour définir un lien avec le fichier CSS -->
+	<!-- ol : for ordered lists and ul : for unordered lists -->
+		<li><a href="#"> En bref</a>  
+		<!-- La balise <li> définit un élément de la liste -->
+		<!-- En anglais, the <li> tag defines a list item -->
+			<ul>  
+				<li><a href="pages/construction.html">CV</a></li>  
+				<li><a href="pages/construction.html">Mes passions</a></li>
+				<li><a href="pages/construction.html">Engagements</a></li>	
+			</ul> 
+		</li><li><a href="#">Cours</a>  
+        <ul>  
+            <!-- <li><a href="#">Level 2.1</a></li>   -->
+            <li><a href="pages/maths.html">Maths</a></li>  
+            <li><a href="pages/techno.html">SNT</a></li>  
+            <li><a href="pages/physique.html">Physique</a></li>  
+        </ul>  
+    </li><li><a href="#">Forum</a>  
+        <ul>  
+            <li><a href="pages/amies.html">Amies(is)</a></li>   
+            <li><a href="pages/construction.html">Sorties</a></li>  
+        </ul>  
+    </li>  
+</ul> 
+
+	<br/><br/><br/>
+					
+	</div>
+		<marquee scrollamount="10"> <h2> Bienvenue sur mon site
+		- Willkommen auf meiner Seite
+		- Witam na mojej stronie
+		- Welcome to my website
+		- 歡迎來到我的網站
+		- bienvenido a mi sitio
+		- benvenuto nel mio sit
+		<!-- marquee : pour ajouter un texte qui défile  -->
+		<!-- scrollamount : vitesse de défilement -->
+		</h2> </marquee>
+	</div>
+<aside>
+		<h3>La citation du jour</h3>
+		<p> <bolder>“Mieux vaut prendre le changement par la main avant qu’il ne vous prenne par la gorge."
+		<br/><br/>Winston Churchill</bolder> </p>
+	</aside>
+<br/><br/><br/><br/><br/><br/>
+<footer id="foot">
+    <h4><i>Copyrigtht by Lucile Berger 25/02/2020 </i></h4>
+</footer>
+
+
+</body>
+</html>
