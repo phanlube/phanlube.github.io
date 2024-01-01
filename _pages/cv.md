@@ -2,14 +2,14 @@
 layout: archive
 title: "CV"
 permalink: /cv/
-paperurl: "https://phanlube.github.io/"
+paperurl: 'http://academicpages.github.io/files/CV_DE.pdf'
 author_profile: true
 redirect_from:
   - /resume
 ---
 
 {% include base_path %}
-You will find my CV [here](https://phanlube.github.io/files/CV_DE.pdf)!
+You will find my CV [here](http://academicpages.github.io/files/CV_DE.pdf)!
 
 Educationsss
 ======
