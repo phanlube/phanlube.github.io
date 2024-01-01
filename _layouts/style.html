@@ -1,23 +1,10 @@
 ---
 layout: default
 ---
-<!DOCTYPE html5>
-<!-- pour préciser le format du document, version 5 HTML -->
 
-
-<html>
-	<!-- première balise qui doit se fermer à la fin du document -->
-
- <head>
-	<!-- balise head pour donner des informations sur la page-->
-	<meta charset="UTF-8s" />
-	<!-- présice le type de codage pour les caractères  -->
-	<!-- balise orpheline avec à la fin />  -->
-    <meta name="auteur" content="Lucile" />
-	<!-- informations sur la page, auteur et contenu  -->
-    <title> index </title>
-	<!-- nom de la page pour faire le lien avec d'autres pages  -->
-	<link rel="stylesheet" href="css/style.css" />
-	<!-- fait le lien avec le fichier CSS  -->
- </head>
-</html>
+<div id="main" role="main">
+  {% include css/style.css %}
+  <div class="style">
+    {{ content }}
+  </div>
+</div>
