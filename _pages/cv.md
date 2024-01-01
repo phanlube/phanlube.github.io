@@ -7,6 +7,8 @@ redirect_from:
   - /resume
 ---
 
+http://academicpages.github.io/files/CV_DE.pdf
+
 {% include base_path %}
 
 Education
