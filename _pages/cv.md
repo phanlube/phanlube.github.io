@@ -7,9 +7,9 @@ redirect_from:
   - /resume
 ---
 
-You will find my CV [here](http://phanlube.github.io/files/CV_DE.pdf)!
-
 {% include base_path %}
+
+You will find my CV [here](/files/CV_DE.pdf)!
 
 Education
 ======
