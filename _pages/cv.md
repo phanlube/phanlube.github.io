@@ -10,7 +10,7 @@ redirect_from:
 {% include base_path %}
 You will find my CV [here](http://phanlube.github.io/files/CV_DE.pdf)!
 
-Education
+Educationsss
 ======
 * B.S. in GitHub, GitHub University, 2012
 * M.S. in Jekyll, GitHub University, 2014
